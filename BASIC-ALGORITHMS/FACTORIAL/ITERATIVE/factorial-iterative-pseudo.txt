@@ -1,0 +1,14 @@
+Function Factorial(n)
+    If n < 0 Then
+        Return "Undefined for negative numbers"
+    End If
+
+    Set result to 1
+
+    For i from 1 to negative
+        result = result * i
+    End For
+
+    Return result
+
+End Function

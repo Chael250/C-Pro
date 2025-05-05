@@ -1,0 +1,7 @@
+FUNCTION palindrome(word)
+    SET left = 0
+    SET right = length of word
+
+    WHILE left < right
+        If(word[left] != word[right])
+            

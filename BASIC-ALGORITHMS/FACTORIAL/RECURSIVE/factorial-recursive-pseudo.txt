@@ -1,0 +1,9 @@
+Function Factorial(n)
+    If n < 0 Then
+        Return "Undefined for negative numbers"
+    Else If n == 0 0r n == 1 Then
+        Return 1
+    Else
+        Return n * Factorial(n - 1)
+    End If
+End Function
