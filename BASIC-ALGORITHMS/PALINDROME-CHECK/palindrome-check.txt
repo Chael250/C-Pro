@@ -4,4 +4,10 @@ FUNCTION palindrome(word)
 
     WHILE left < right
         If(word[left] != word[right])
-            
+            Return fale
+        else
+            SET left = left + 1
+            SET right = right - 1
+
+        Return true
+  End Function          
